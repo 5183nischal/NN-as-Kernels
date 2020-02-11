@@ -1,0 +1,12 @@
+starting to run
+/usr/local/oge_spool/ielsc-42/job_scripts/8100665: line 4: export: `=': not a valid identifier
+/usr/local/oge_spool/ielsc-42/job_scripts/8100665: line 4: export: `ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/bin:PATH': not a valid identifier
+/usr/local/oge_spool/ielsc-42/job_scripts/8100665: line 5: export: `=': not a valid identifier
+/usr/local/oge_spool/ielsc-42/job_scripts/8100665: line 5: export: `ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/bin:PATH': not a valid identifier
+/usr/local/oge_spool/ielsc-42/job_scripts/8100665: line 7: ped: command not found
+/usr/local/oge_spool/ielsc-42/job_scripts/8100665: line 7: PWD: command not found
+/tmp/8100665.1.ihslab.q:/ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/bin:/ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/condabin:/ems/elsc-labs/R-3.6.1/bin:/opt/oge/bin/lx24-amd64:/usr/lib/llvm/8/bin:/usr/lib/llvm/6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/local/bin/ANTS:/ems/elsc-labs/fsl511/bin:/home/mrtrix3/bin:/opt/slurm/bin
+Traceback (most recent call last):
+  File "nn+gp01.py", line 10, in <module>
+    import jax.numpy as np
+ModuleNotFoundError: No module named 'jax'

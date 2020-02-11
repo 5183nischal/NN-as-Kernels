@@ -1,0 +1,25 @@
+starting to run
+/usr/local/oge_spool/ielsc-37/job_scripts/8081285: line 4: export: `=': not a valid identifier
+/usr/local/oge_spool/ielsc-37/job_scripts/8081285: line 4: export: `ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/bin:PATH': not a valid identifier
+/usr/local/oge_spool/ielsc-37/job_scripts/8081285: line 5: export: `=': not a valid identifier
+/usr/local/oge_spool/ielsc-37/job_scripts/8081285: line 5: export: `ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/bin:PATH': not a valid identifier
+/usr/local/oge_spool/ielsc-37/job_scripts/8081285: line 7: ped: command not found
+/usr/local/oge_spool/ielsc-37/job_scripts/8081285: line 7: PWD: command not found
+/tmp/8081285.1.elsc.q:/ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/envs/conda-env/bin:/ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/condabin:/ems/elsc-labs/R-3.6.1/bin:/opt/oge/bin/lx24-amd64:/usr/lib/llvm/8/bin:/usr/lib/llvm/6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/local/bin/ANTS:/ems/elsc-labs/fsl511/bin:/home/mrtrix3/bin:/opt/slurm/bin
+Files already downloaded and verified
+Files already downloaded and verified
+/ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/envs/conda-env/lib/python3.6/site-packages/jax/lib/xla_bridge.py:118: UserWarning: No GPU/TPU found, falling back to CPU.
+  warnings.warn('No GPU/TPU found, falling back to CPU.')
+/ems/elsc-labs/sompolinsky-h/nischal.mainali/anaconda3/envs/conda-env/lib/python3.6/site-packages/jax/lax/lax.py:4578: UserWarning: Explicitly requested dtype <class 'numpy.float64'> requested in astype is not available, and will be truncated to dtype float32. To enable more dtypes, set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment variable. See https://github.com/google/jax#current-gotchas for more.
+  warnings.warn(msg.format(dtype, fun_name , truncated_dtype))
+#######################################
+Evaluation with a full NN
+Accuracy of the network on the 10000 test images: 0.9261 ####VGG11's best performance
+
+#######################################
+creating feature extractor
+feature extraction complete
+#######################################
+Gaussian process inference with infinite network
+0.9253
+#######################################
